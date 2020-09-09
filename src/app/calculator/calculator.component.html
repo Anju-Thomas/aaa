@@ -1,0 +1,10 @@
+<div style="position: absolute;background-color: blueviolet;left: 40%;top: 30%;width: 300px;height: 300px;">
+<input type="text" (input)="value1=$event.target.value" value={{value1}}>{{value1}}<br>
+<input type="text" (input)="value2=$event.target.value"value={{value2}}>{{value2}}
+<br>
+<input type="text" value={{result}}>{{result}}
+<button (click)="add()" >
+    +
+</button>
+
+</div>
